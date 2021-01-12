@@ -1,0 +1,60 @@
+div h2{
+	float:left;
+	border-bottom:1px black;
+}
+
+div form ul li{
+	list-style-type:none;
+	width:25%;
+	float:left;
+	margin: .2em 0em;
+}
+
+div form ul li label {
+	text-decoration-style:solid;
+}
+
+div form ul li label span{
+	text-decoration-color:red;
+}
+
+div form ul li div{
+	float:left;
+	display:block;
+	border-bottom:1px black;
+}
+
+div form ul li div span.completo{
+	weight:100%;
+}
+
+div form ul li div span.tercio{
+	weight:30%;
+}
+
+div form ul li div span.dostercios{
+	weigth:60%;
+}
+
+div form ul li div:focus{
+	color:yellow;
+}
+
+div form ul li div span input{
+	display: block;
+}
+
+div form ul li div span input:focus{
+	border-color:yellow;
+}
+
+div form ul li p{
+	text-decoration-color:transparent;
+}
+
+div form ul li p:hover {
+	text-decoration-color:black;
+}
+
+
+
